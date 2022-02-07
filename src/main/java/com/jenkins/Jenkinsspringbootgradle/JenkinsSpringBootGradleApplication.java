@@ -11,7 +11,7 @@ public class JenkinsSpringBootGradleApplication {
 
 	@GetMapping("/")
 	public String getMapping() {
-		return "Version is V1";
+		return "Git Updated";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinsSpringBootGradleApplication.class, args);
